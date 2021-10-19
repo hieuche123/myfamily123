@@ -127,7 +127,7 @@ div {
 .timeline > li > .timeline-panel:before {
     position: absolute;
     top: 36px;
-    right: -1px;
+    right: -15px;
     display: inline-block;
     border-top: 15px solid transparent;
     border-left: 15px solid #e74851;
@@ -155,7 +155,6 @@ p {
     border-right-width: 14px;
     left: -14px;
     right: auto;
-    display: none;
 }
 .negative75 {
     margin-top: -75px;
@@ -251,5 +250,21 @@ p {
         line-height: 50px;
         font-size: 14px;
     }
+    .timeline > li > .timeline-panel:before {
+        position: absolute;
+        top: 36px;
+        right: -1px;
+        display: inline-block;
+        border-top: 15px solid transparent;
+        border-left: 15px solid #e74851;
+        border-right: 0 solid #e74851;
+        border-bottom: 15px solid transparent;
+        content: " ";
+    }
+    .timeline > li > .timeline-panel::after {
+        display: none;
+
+    }
+
     
 }
