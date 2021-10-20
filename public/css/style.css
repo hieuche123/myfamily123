@@ -3603,6 +3603,10 @@ input[type=text]::-ms-clear {
         margin-left: -30px;
 
     }
+     .col-xs-8.text-center.txt {
+        margin-left: -18px;
+        font-size: 13px;
+    }
     .girl {
         margin-top: -44px;
         margin-left: 10px;
