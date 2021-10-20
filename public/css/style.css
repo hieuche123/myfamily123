@@ -105,6 +105,9 @@ p {
     height: 100%;
     z-index: 1;
 }
+.ch-grid.woman {
+    margin-top: -20px;
+}
 
 .white {
     background: #FFF;
