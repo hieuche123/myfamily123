@@ -3614,5 +3614,7 @@ input[type=text]::-ms-clear {
     .svg-inline--fa::before {
         margin-left: -16px;
     }
- 
+  .ch-grid.woman {
+        margin-top: 30px;
+    }
 }
